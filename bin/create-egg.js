@@ -2,4 +2,4 @@
 
 'use strict';
 
-require('../node_modules/.bin/egg-init');
+require('egg-init/bin/egg-init');
