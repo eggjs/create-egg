@@ -28,5 +28,5 @@ Thanks to `npm init` feature introduced at npm@6, see [npm-init](https://docs.np
 
 ```bash
 $ npm init egg showcase
-$ $ npm init egg showcase --type=simple
+$ npm init egg showcase --type=simple
 ```
