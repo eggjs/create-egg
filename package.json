@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Alias for egg-init, so you could use `npm init egg showcase`.",
   "dependencies": {
-    "egg-init": "^1.15.0"
+    "egg-init": "^2"
   },
   "devDependencies": {
     "autod": "^3.0.1",
@@ -16,7 +16,7 @@
   },
   "bin": "./bin/create-egg.js",
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=10.0.0"
   },
   "scripts": {
     "autod": "autod",
@@ -28,7 +28,8 @@
     "pkgfiles": "egg-bin pkgfiles"
   },
   "ci": {
-    "version": "8, 10",
+    "version": "10, 12",
+    "type": "github",
     "license": {
       "year": 2018
     }
@@ -45,9 +46,7 @@
     "url": "https://github.com/eggjs/egg/issues"
   },
   "homepage": "https://github.com/eggjs/create-egg",
-  "files": [
-    "bin"
-  ],
+  "files": [],
   "author": "TZ <atian25@qq.com>",
   "license": "MIT"
 }
