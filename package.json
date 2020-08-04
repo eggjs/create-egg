@@ -46,7 +46,9 @@
     "url": "https://github.com/eggjs/egg/issues"
   },
   "homepage": "https://github.com/eggjs/create-egg",
-  "files": [],
+  "files": [
+    "bin"
+  ],
   "author": "TZ <atian25@qq.com>",
   "license": "MIT"
 }
