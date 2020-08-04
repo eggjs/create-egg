@@ -1,6 +1,6 @@
 {
   "name": "create-egg",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Alias for egg-init, so you could use `npm init egg showcase`.",
   "dependencies": {
     "egg-init": "^2"
