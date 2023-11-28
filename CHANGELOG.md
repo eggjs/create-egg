@@ -1,3 +1,15 @@
+# Changelog
+
+## [3.0.0](https://github.com/eggjs/create-egg/compare/v2.0.1...v3.0.0) (2023-11-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop Node.js < 16 support
+
+### Features
+
+* use egg-init v3 ([#8](https://github.com/eggjs/create-egg/issues/8)) ([1709791](https://github.com/eggjs/create-egg/commit/1709791b14dd390692cf7047aaa52f1d6cefb268))
 
 2.0.1 / 2020-08-04
 ==================
