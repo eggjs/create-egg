@@ -6,33 +6,23 @@
     "egg-init": "3"
   },
   "devDependencies": {
-    "autod": "^3.0.1",
     "coffee": "^5.1.0",
-    "egg-bin": "^4.9.0",
-    "egg-ci": "^1.10.0",
-    "eslint": "^5.7.0",
-    "eslint-config-egg": "^7.1.0",
-    "webstorm-disable-index": "^1.2.0"
+    "egg-bin": "6",
+    "eslint": "8",
+    "eslint-config-egg": "13",
+    "git-contributor": "^2.1.5"
   },
   "bin": "./bin/create-egg.js",
   "engines": {
     "node": ">=16.0.0"
   },
   "scripts": {
-    "autod": "autod",
     "lint": "eslint .",
-    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+    "test": "npm run lint -- --fix && npm run test-local",
     "test-local": "egg-bin test",
     "cov": "egg-bin cov",
-    "ci": "npm run lint && egg-bin pkgfiles --check && npm run cov",
-    "pkgfiles": "egg-bin pkgfiles"
-  },
-  "ci": {
-    "version": "10, 12",
-    "type": "github",
-    "license": {
-      "year": 2018
-    }
+    "ci": "npm run lint && npm run cov",
+    "contributor": "git-contributor"
   },
   "eslintIgnore": [
     "coverage",
